@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<style>
+    #faixa {
+        background-color: rgb(75, 132, 255);
+    }
+    .fundo{
+        background-color: rgb(186, 209, 255);
+    }
+</style>
+
+<body>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8 fundo">
+            <div id="faixa">SISTEMA DE GESTÃO ACADÊMICA</div>
+            <p><strong>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</strong></p>
+            <form action="#">
+                <div class="mb-3">
+                    <label class="form-label"><strong>Login</strong></label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label"><strong>Senha</strong></label>
+                    <input type="password" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label"><strong>Status</strong></label>
+                    <select class="form-select">
+                        <option value=""></option>
+                        <option value="">Ativo</option>
+                        <option value="">Inativo</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label"><strong>Tipo</strong></label><br>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                            value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Tecnico</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Professor</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                            value="option3">
+                        <label class="form-check-label" for="inlineRadio3">Aluno</label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label"><strong>Data Criação</strong></label>
+                    <input type="date" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label for=""><strong>Perfil</strong></label><br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptionss" id="inlineRadio1"
+                            value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Convidado</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptionss" id="inlineRadio2"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Administrador</label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label"><strong>Observações</strong></label>
+                    <textarea class="form-control" rows="8"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label"><strong>Módulos</strong></label><br>
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">Compras</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">Biblioteca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">Acadêmico</label>
+                    </div><br>
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">Documentação</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">Recursos Humanos</label>
+                    </div>
+                </div><br>
+
+                <button type="submit" class="btn btn-outline-success">Cadastrar</button>
+                <button type="reset" class="btn btn-outline-danger">Excluir</button>
+            </form>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>
